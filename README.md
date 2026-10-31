@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PaidHandshake Exchange is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://paidhandshake.com
+PaidHandshake Exchange is a live AI‑enabled marketplace that connects autonomous agents, human workers, and data sources to fulfill commercial intelligence, procurement, and research requests. The platform offers a searchable catalog of verified buyer intent, supplier pricing, RFPs, grants, and local service opportunities. Users can submit queries via API or web UI, receive price quotes, and authorize micro‑transactions for data delivery. It supports MCP tools, A2A integration, and provides OpenAPI 3.1 specifications for programmatic access. Operated by Tech‑World LLC, the service aims to automate market intelligence gathering for AI agents and businesses.
+
+**Areas:** Company · Artificial Intelligence · Marketplace · Data · Automation
+
+## PaidHandshake Exchange on APIs.io
+
+Everything profiled for PaidHandshake Exchange is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paidhandshake/](https://apis.io/providers/paidhandshake/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [PaidHandshake Exchange Capabilities API](https://apis.io/apis/paidhandshake/paidhandshake-capabilities-api/) — The Capabilities API from PaidHandshake Exchange — 1 operation(s) for capabilities.
+- [PaidHandshake Exchange Checkout API](https://apis.io/apis/paidhandshake/paidhandshake-checkout-api/) — The Checkout API from PaidHandshake Exchange — 1 operation(s) for checkout.
+- [PaidHandshake Exchange Inventory API](https://apis.io/apis/paidhandshake/paidhandshake-inventory-api/) — The Inventory API from PaidHandshake Exchange — 1 operation(s) for inventory.
+- [PaidHandshake Exchange Machine API](https://apis.io/apis/paidhandshake/paidhandshake-machine-api/) — The Machine API from PaidHandshake Exchange — 12 operation(s) for machine.
+- [PaidHandshake Exchange Proof API](https://apis.io/apis/paidhandshake/paidhandshake-proof-api/) — The Proof API from PaidHandshake Exchange — 1 operation(s) for proof.
+- [PaidHandshake Exchange Quote API](https://apis.io/apis/paidhandshake/paidhandshake-quote-api/) — The Quote API from PaidHandshake Exchange — 1 operation(s) for quote.
+- [PaidHandshake Exchange Sample API](https://apis.io/apis/paidhandshake/paidhandshake-sample-api/) — The Sample API from PaidHandshake Exchange — 1 operation(s) for sample.
+- [PaidHandshake Exchange Search API](https://apis.io/apis/paidhandshake/paidhandshake-search-api/) — The Search API from PaidHandshake Exchange — 2 operation(s) for search.
+- [PaidHandshake Exchange .well Known API](https://apis.io/apis/paidhandshake/paidhandshake-well-known-api/) — The .well Known API from PaidHandshake Exchange — 1 operation(s) for .well known.
+- [PaidHandshake Exchange X402 API](https://apis.io/apis/paidhandshake/paidhandshake-x402-api/) — The X402 API from PaidHandshake Exchange — 3 operation(s) for x402.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Paidhandshake Agentic Access](https://apis.io/agentic-access/paidhandshake/paidhandshake-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [MachineJobRequest](https://apis.io/schemas/paidhandshake/paidhandshake-machine-job-request/)
+- [MachineQuoteRequest](https://apis.io/schemas/paidhandshake/paidhandshake-machine-quote-request/)
+- [RecurringWatchRequest](https://apis.io/schemas/paidhandshake/paidhandshake-recurring-watch-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Paidhandshake Context](https://apis.io/jsonld/paidhandshake/paidhandshake-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PaidHandshake Exchange API Rules](https://apis.io/rules/paidhandshake/paidhandshake-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Paidhandshake Authentication](https://apis.io/security/paidhandshake/paidhandshake-authentication/)
+- [Paidhandshake Domain Security](https://apis.io/security/paidhandshake/paidhandshake-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Paidhandshake Plans Pricing](https://apis.io/plans/paidhandshake/paidhandshake-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paidhandshake.com)
+- [Documentation](https://paidhandshake.com/openapi.json)
+- [Getting started](https://paidhandshake.com/discover)
+- [API reference](https://paidhandshake.com/llms.txt)
+- [Terms of service](https://paidhandshake.com/terms)
+- [Privacy policy](https://paidhandshake.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.6** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 55.3 |
+| Contract governance | 19.7 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.3 |
+| Access clarity | 55.3 |
+
+**Agent readiness 38.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paidhandshake/](https://apis.io/providers/paidhandshake/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PaidHandshake Exchange: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paidhandshake/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
